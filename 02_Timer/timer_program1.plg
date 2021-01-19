@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil_v5\ARM\Examples\Measure\timer\timer_program1.uvproj
+Project File Date:  04/20/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling timer_counter1.c...
+..\timer1\timer_counter1.c(6): warning:  #1295-D: Deprecated declaration delayMS - give arg types
+..\timer1\timer_counter1.c:   void delayMS();
+..\timer1\timer_counter1.c:        ^
+..\timer1\timer_counter1.c(42): error:  #20: identifier "MR0" is undefined
+..\timer1\timer_counter1.c:     MR0 = 1000;
+..\timer1\timer_counter1.c:     ^
+..\timer1\timer_counter1.c(103): warning:  #1-D: last line of file ends without a newline
+..\timer1\timer_counter1.c:   }
+..\timer1\timer_counter1.c:    ^
+..\timer1\timer_counter1.c: ..\timer1\timer_counter1.c: 2 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling timer_counter1.c...
+..\timer1\timer_counter1.c(6): warning:  #1295-D: Deprecated declaration delayMS - give arg types
+..\timer1\timer_counter1.c:   void delayMS();
+..\timer1\timer_counter1.c:        ^
+..\timer1\timer_counter1.c(103): warning:  #1-D: last line of file ends without a newline
+..\timer1\timer_counter1.c:   }
+..\timer1\timer_counter1.c:    ^
+..\timer1\timer_counter1.c: ..\timer1\timer_counter1.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=804 RO-data=16 RW-data=0 ZI-data=1256  
+"timer_program1.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1076 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"timer_program1.axf" - 0 Error(s), 0 Warning(s).

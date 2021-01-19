@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil_v5\ARM\INC" -I "C:\Keil_v5\ARM\INC\Philips" -o "timer_counter.o" --omf_browse "timer_counter.crf" --depend "timer_counter.d" "timer_counter.c"
